@@ -1,0 +1,432 @@
+/* goodle font */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto:wght@300;500;900&display=swap');
+
+/* 
+font-family: 'Imperial Script', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.padding {
+    padding: 0 100px;
+}
+
+
+/* bg shape style */
+
+.bgshape {
+    position: relative;
+    height: 160px;
+}
+
+.bgshape h2 {
+   font-family: 'Imperial Script', cursive;
+   font-weight: lighter;
+   color: #fff;
+   display: inline-block;
+   font-size: 80px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,0%);
+   z-index: 5;
+}
+
+.bgshape span {
+   width: 250px;
+   height: 150px;
+   background: #316D6D;
+   position: absolute;
+   left: 50%;
+   -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 59% 51%, 33% 93%, 30% 50%, 0 49%);
+   clip-path: polygon(0 0, 100% 0, 100% 50%, 59% 51%, 33% 93%, 30% 50%, 0 49%);
+   transform: translate(-50%,10%);
+   z-index: 0;
+}
+
+/* header section  */
+
+
+header .logo {
+    padding: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+header .header1 span {
+    float: right;
+    display: inline-block;
+    padding: 25px 0;
+    color: #316D6D;
+}
+
+.header2 {
+    padding: 80px 0;
+    background: #2D6E6D;
+    text-align: center;
+}
+
+.header2 h1 {
+    font-size: 100px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header2 p {
+    padding: 30px 0;
+    color: #699563;
+}
+
+.header2 table, td {
+    border:2px solid #ffffff;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    color: #fff;
+    margin: auto;
+}
+
+/* when it comes section */
+
+.sec {
+    padding: 50px 0;
+    background: #EAF0F0;
+}
+
+.sec h2 {
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #457F7E;
+}
+
+
+.sec p {
+    text-align: right;
+    margin-right: 70px;
+    font-weight: 900;
+    color: #367573;
+}
+
+/* about talk gren */
+
+.talk {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.talk .bgshape h2 {
+    color: #346767;
+    line-height: 0.7;
+ }
+
+ .talk .bgshape span {
+    background: #CFD852;
+    transform: translate(-50%,-5%);
+
+}
+
+
+.talk p {
+    padding: 15px;
+    color: #457F7E;
+    line-height: 1.8;
+}
+
+.talk b {
+    color: #367573;
+}
+
+/* get inspired  */
+
+.get {
+     padding: 50px 0;
+     background: #CFD852;
+     text-align: center;
+}
+
+
+
+.get1 h3 {
+    color: #39756B;
+     padding: 20px;
+}
+
+.get .get2 {
+    padding: 15px 20px;
+    background: #fff;
+    margin: 10px 0;
+    text-align: left;
+    position: relative;
+}
+
+.get .get2 h3 {
+    color: #CFD852;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.get .get2 p {
+    color: #407D83;
+}
+
+.get .get2 i {
+    position: absolute;
+    color: #407D83;
+    font-weight: bolder;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.get3 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.get3 .box {
+    float: left;
+    width: 32%;
+    margin: 10px 2% 10px 0px;
+    background: linear-gradient(rgba(44, 97, 96, 0.795),rgba(44, 97, 96, 0.795)), url(img/bd.jpg);
+    height: 350px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.get3 .box:nth-child(3n) {
+    margin-right: 0;
+}
+
+.get3 .box .boxtext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* gren panting */
+
+.panting {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.panting .bgshape h2 {
+    color: #346767;
+    line-height: 0.7;
+}
+
+.panting .bgshape span {
+    background: #CFD852;
+    transform: translate(-50%,-5%);
+}
+
+.panting .panting2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panting .panting2 .greenimg {
+   flex-basis: 15%;
+   margin: 10px 10px;
+   cursor: pointer;
+   min-width: 140px;
+   box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.7);
+   -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.7);
+   -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.7);
+}
+
+.panting .panting2 .greenimg img {
+    width: 100%;  
+    height: 100%;
+}
+
+
+/* msheirels gren progain  */
+
+.progain {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.progain1 {
+    text-align: center;
+}
+
+.progain1 .bgshape h2 {
+    color: #346767;
+    line-height: 0.7;
+}
+
+.progain1 .bgshape span {
+    background: #CFD852;
+    transform: translate(-50%,-5%);
+}
+
+.progain1 p {
+    margin: 0 15%;
+    color: #6D9A9A;
+}
+
+.progain2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.progain2 img {
+    width: 150px;
+    height: auto;
+}
+
+.progain3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.progain3 div {
+    display: inline-block;
+    padding: 20px;
+    background: #CFD852;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.progain3 span {
+    margin-right: 10px;
+}
+
+.progain4 {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    clear: both;
+    overflow: hidden;
+    height: 700px;
+}
+
+.progain4 img {
+    max-width: 100%;
+}
+
+.abc div {
+    display: inline-block;
+    margin: 20px 2px;
+
+}
+
+.abc div i {
+    font-size: 18px;
+}
+
+.abc div h6 {
+    
+}
+
+.progain4 .probox1 {
+    color: #CED853;
+    float: left;
+    width: 37.5%;
+    margin-right: 25%;
+}
+
+.progain4 .probox2 {
+    color: #652F83;
+    float: right;
+    width: 37.5%;
+}
+
+.progain4 .probox3 {
+    color: #2D6D6C;
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 37.5%;
+}
+
+.probox3 button {
+    display: block;
+    margin: auto;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: 2px solid #316D6D;
+    color: #316D6D;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.probox3 button:hover {
+    color: #fff;
+    background: #316D6D;
+}
+
+
+/* light section */
+
+.light {
+    padding: 70px 0;
+    background: linear-gradient(rgba(49, 109, 109, 0.8),rgba(49, 109, 109, 0.8)), url(img/light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75% 0px;
+}
+
+.light h1 {
+    font-size: 50px;
+    width: 433px;
+    color: #fff;
+}
+
+.light button {
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: 2px solid #CED853;
+    background: #CED853;
+    color: #316D6D;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.light button:hover {
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #316D6D;
+}
+
+.footer img {
+    height: auto;
+    width: auto;
+}
+
+.footer .icon p i {
+    font-size: 18px;
+    padding: 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,307 @@
+@media only screen and (max-width: 1024px) {
+
+    .padding {
+        padding: 0 30px;
+    }
+
+    .bgshape {
+        height: 120px;
+    }
+
+    .bgshape h2 {
+        font-size: 50px;
+    }
+
+    .bgshape span {
+    width: 120px;
+    height: 100px;
+    left: 50%;
+    }
+
+    header .logo {
+        padding: 5px 0;
+    }
+
+    header .header1 span {
+        padding: 20px 0;
+    }
+    
+
+    .header2 {
+        padding: 50px 0;
+    }
+
+    .header2 h1 {
+        font-size: 60px;
+    }
+
+    .header2 p {
+        padding: 20px 0;
+    }
+
+    .sec {
+        padding: 40px 0;
+    }
+
+    .sec h2 {
+        font-size: 35px;
+        font-weight: 300;
+
+
+    }
+
+    .light h1 {
+        font-size: 43px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+
+    .padding {
+        padding: 0 20px;
+    }  
+
+    .header2 {
+        padding: 40px 0;
+    }
+
+    .header2 h1 {
+        font-size: 50px;
+    }
+
+    .talk {
+        padding: 40px 0;
+    }
+
+    .talk p {
+        padding: 10px 0px 0px;
+        line-height: normal;
+    }
+
+    .bgshape {
+        position: relative;
+        height: 105px;
+    }
+
+    .get3 .box {
+        height: 300px;
+    }
+
+    .panting {
+        padding: 50px 0px 10px;
+    }
+
+    .progain {
+        padding: 50px 0px 20px;
+        text-align: center;
+    }
+
+    .progain4 {
+        position: static;
+        height: auto;
+    }
+
+    .progain4 .probox1 {
+        float: none;
+        width: 70%;
+        margin: auto;
+    }
+
+    .progain4 .probox2 {
+        float: none;
+        width: 70%;
+        margin: auto;
+    }
+
+    .progain4 .probox3 {
+        position: static;
+        margin-top: 0px;
+        transform: translateX(0px);
+        width: 70%;
+        margin: auto;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .padding {
+        padding: 0 10px;
+    }
+
+    .bgshape {
+        height: 80px;
+    }
+
+    .bgshape h2 {
+        font-size: 35px;
+    }
+
+    .bgshape span {
+        width: 90px;
+        height: 60px;
+        left: 50%;
+    }
+
+    header .logo {
+        width: 30%;
+        height: auto;
+    }
+
+    header .header1 span {
+        padding: 10px 0;
+    }
+
+    .header2 {
+        padding: 30px 0;
+    }
+
+    .header2 h1 {
+        font-size: 45px;
+    }
+
+    .header2 p {
+        padding: 10px 0;
+    }
+
+    .sec h2 {
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        color: #457F7E;
+    }
+
+    .get1 h3 {
+        font-size: 25px;
+    }
+
+    .get .get2 h3 {
+        font-size: 22px;
+    }
+
+    .get3 .box {
+        width: 48%;
+        margin: 1%;
+        height: 300px;
+    }
+
+    .get3 .box:nth-child(3n) {
+        margin-right: 1%;
+    }
+
+    .panting {
+        padding: 30px 0;
+    }
+
+    .panting .bgshape h2 {
+        line-height: normal;
+    }
+
+    .panting .panting2 .greenimg {
+        height: 140px;
+        margin: 5px 5px;
+        flex-basis: 15%;
+    }
+
+    .progain {
+        padding: 20px 0;
+    }
+
+    .progain2 {
+        margin-top: 8px;
+    }
+
+    .light h1 {
+        font-size: 35px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .padding {
+        padding: 0 10px;
+    }
+
+    .sec {
+        padding: 15px 0;
+    }
+
+    .sec h2 {
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0px;
+
+    }
+
+    .sec p {
+        margin-right: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .bgshape {
+        height: 60px;
+    }
+
+    .bgshape h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .get3 .box {
+        width: 100%;
+        margin: 5px 0;
+        height: 250px;
+    }
+
+    .get {
+        padding: 25px 0;
+    }
+
+    .get1 h3 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .panting .bgshape h2 {
+        text-align: center;
+    }
+
+    .panting {
+        padding: 20px 0;
+    }
+
+    .progain4 {
+        padding: 15px 0;
+    }
+
+    .progain4 .probox1 {
+        width: 100%;
+    }
+    .progain4 .probox2 {
+        width: 100%;
+    }
+    .progain4 .probox3 {
+        width: 100%;
+    }
+
+    .light button {
+        padding: 12px 30px;
+        margin-top: 24px;
+    }
+
+    .footer img {
+        height: auto;
+        width: 40%;
+    }
+
+    .icon p:first-child {
+        font-size: 14px;
+    }
+
+    
+
+}
